@@ -1,2 +1,2 @@
 # Projects
-Repository of my Projects
+This is a public repository of my projects.
