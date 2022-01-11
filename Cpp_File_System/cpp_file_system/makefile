@@ -1,4 +1,4 @@
-Cpp_File_System: main.o Sdisk.o Filesys.o Shell.o
+cpp_file_system: main.o Sdisk.o Filesys.o Shell.o
 	g++ main.o Sdisk.o Filesys.o Shell.o -o Lab8
 
 main.o: main.cpp
