@@ -1,0 +1,1 @@
+%Taylor Helms%dbscan algorithm implementation in MATLAB%loads in data points from .dat fileX = load('s1.dat');% Y = load('s2.dat');K = 7;epoch = 20;centroids = initCentroids(X, K);% centroids = initCentroids(Y, K);for i=1:epoch  indices = reassignPoints(X, K, centroids);  centroids = updateCentroids(X, indices, K);endscatter(X(:,1),X(:,2),32,indices,'filled')

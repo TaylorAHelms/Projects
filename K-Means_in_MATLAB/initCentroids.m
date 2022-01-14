@@ -1,0 +1,1 @@
+%function to initialize centroidsfunction centroids = initCentroids(X, K)     randidx = randperm(size(X,1));    centroids = X(randidx(1:K), :); end
