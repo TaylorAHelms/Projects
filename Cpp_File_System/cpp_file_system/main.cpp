@@ -5,7 +5,7 @@
 #include <sstream>
 #include "Shell.h"
 
-//This main program builds the filesystem and allows the user to inputs commands to the shell.
+//This main program builds the filesystem and allows the user to input commands to the shell.
 //Commands are input as follows: "command op1 op2"
 //Possible commands are as follows:
 //"dir": lists all the files
