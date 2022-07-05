@@ -61,7 +61,7 @@ VirtualMachine::VirtualMachine()
 }
 
 //Performs loop of fetch, decode and execute. After each execution, there
-//will be a check if an interupt has occured.
+//will be a check if an interrupt has occured.
 void VirtualMachine::run(int TIME_SLICE, fstream & in, fstream & out)
 {
     session = clock;
