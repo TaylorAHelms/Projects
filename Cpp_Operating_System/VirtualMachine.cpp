@@ -7,7 +7,7 @@
 *
 * 10/31/2018
 *
-* The VirtualMachine currently consist of a Virtual CPU and memeory. It
+* The VirtualMachine currently consist of a Virtual CPU and memory. It
 * performs the fetch, decode and execute cycle until an interupt is encountered.
 * All object code is loaded by the OS directly into memory. The OS also
 * manages which process is loaded into the Virtual Machine. VM will loop the
