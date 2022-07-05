@@ -54,7 +54,7 @@ Assembler::Assembler()
 }
 
 //reads in each line of '.s' file and calls a function based on its opcode.
-//returns 0 on success, 1 if error accured
+//returns 0 on success, 1 if error occured
 int Assembler::Assemble(fstream& inFile, fstream& outFile)
 {
     string line;
