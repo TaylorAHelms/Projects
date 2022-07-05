@@ -7,11 +7,11 @@
 *
 * 10/31/2018
 *
-* The VirtualMachine currently consist of a Virtual CPU and memory. It
-* performs the fetch, decode and execute cycle until an interupt is encountered.
+* The VirtualMachine currently consists of a Virtual CPU and memory. It
+* performs the fetch, decode and execute cycle until an interrupt is encountered.
 * All object code is loaded by the OS directly into memory. The OS also
 * manages which process is loaded into the Virtual Machine. VM will loop the
-* Run fucntion until an interupt via timeslice, read, write, or other error
+* Run function until an interrupt via timeslice, read, write, or other error
 * is encountered.
 **************************************************************************/
 
