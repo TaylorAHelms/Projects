@@ -15,6 +15,7 @@
 //"copy op1 op2": creates a new file named op2 and copies the contents of op1 in to op2
 //"append op1": appends the file op1 with input from the keyboard, ending with "@"
 //"clobber op1": clobbers the contents of the file op1 recursively
+//"quit" to end the program
 
 int main()
 {
